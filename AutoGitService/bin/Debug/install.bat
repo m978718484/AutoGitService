@@ -1,0 +1,1 @@
+installutil AutoGitService.exe
