@@ -43,7 +43,7 @@ namespace AutoGitService
         {
             Stream fs = File.OpenWrite(filePath);
             TextWriter sw = new StreamWriter(fs);
-            sw.WriteLine("panel !!!!!!!!!!!!!!!");
+            sw.WriteLine("hello done");
             sw.Flush();
             sw.Close();
         }
